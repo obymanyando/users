@@ -1,0 +1,18 @@
+
+.container {
+    border: 1px solid #999;
+}
+
+
+.link {
+    background-color: cyan;
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+/* style={{
+												color: 'white',
+												padding: 4,
+												backgroundColor: 'blue',
+											}} */
