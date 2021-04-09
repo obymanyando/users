@@ -1,18 +1,20 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
-import { Card } from 'react-bootstrap'
+import { Container, Card, Button } from 'react-bootstrap'
 
 const FullCard = ({ users }) => {
 	const { id } = useParams()
 	return (
-		<div>
+		<div className='fullCard'>
 			<h2>User details</h2>
+			<Button variant='info' href='/' className='btn'>
+				⇦
+			</Button>
 			<Container>
 				{users
 					.filter((user) => user.id == id)
 					.map((user) => (
-						<Card className='h-100 align-center mt-3' key={user.id}>
+						<Card className='h-100 align-center m-3' key={user.id}>
 							<Card.Body className='d-flex flex-column align-items-center'>
 								<div className='d-flex flex-column mb-4 align-items-center'>
 									<Card.Title>Name: {user.name}</Card.Title>

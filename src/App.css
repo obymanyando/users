@@ -3,13 +3,42 @@
     border: 1px solid #999;
 }
 
-
-.link {
-    background-color: cyan;
-    border-radius: 2px;
-    padding: 5px;
-    font-weight: 700;
+.fullCard {
+margin: 5px; 
 }
+.card-body {
+    margin: .10rem;
+    padding-bottom: 0.1rem;
+}
+
+.more-info {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 4px;
+    padding: .50rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.btn {
+    font-weight: 700;
+    width: 100px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: .50rem;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    color:white;
+    background-color:black;
+}
+
 
 /* style={{
 												color: 'white',
