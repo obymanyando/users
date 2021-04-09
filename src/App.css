@@ -6,6 +6,11 @@
 .fullCard {
 margin: 5px; 
 }
+.user-details {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 .card-body {
     margin: .10rem;
     padding-bottom: 0.1rem;
@@ -24,6 +29,10 @@ margin: 5px;
 .btn {
     font-weight: 700;
     width: 100px;
+    margin-top: 5px;
+    margin-left: 50%;
+    background-color: black;
+    border-color: black;
 }
 
 .avatar {
